@@ -1,0 +1,353 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E8F5E9;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #E8F5E9;
+}
+
+.logo h1 {
+    color: #396C03;
+    margin: 0;
+}
+
+.nav a {
+    margin: 0 15px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.lang-switch {
+    display: inline-flex;
+    align-items: center;
+}
+
+.lang-switch a {
+    color: #396C03;
+}
+
+.login-cart {
+    display: flex;
+    align-items: center;
+}
+
+.login-btn {
+    padding: 8px 15px;
+    background-color: #396C03;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.cart img {
+    width: 20px;
+    margin-left: 20px;
+    padding: 8px 15px;
+    background-color: #396C03;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #E8F5E9;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h2 {
+    font-size: 36px;
+    color: #396C03;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.location-search {
+    display: flex;
+    align-items: center;
+}
+
+.location-search input {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-btn {
+    padding: 10px 20px;
+    background-color: #396C03;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.hero-image img {
+    width: 400px;
+    border-radius: 20px;
+}
+
+.people-delivered {
+    background-color: #E8F5E9;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+.people-delivered span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #396C03;
+}
+
+.people-delivered p {
+    margin: 5px 0 0;
+}
+
+/* Explore City Section */
+.explore-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #F9FBE7;
+}
+
+.explore-text {
+    max-width: 50%;
+}
+
+.explore-text h2 {
+    font-size: 36px;
+    color: #396C03;
+    margin-bottom: 20px;
+}
+
+.explore-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.explore-image img {
+    width: 400px;
+    border-radius: 20px;
+}
+.explore-btn {
+    padding: 8px 15px;
+    background-color: #396C03;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: white;
+}
+
+.feature {
+    text-align: center;
+    max-width: 250px;
+}
+
+.feature img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.feature h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 16px;
+}
+
+/* Join FoodTime Section */
+.join-foodtime {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 20px;
+    background-color: white;
+}
+
+.join-text {
+    max-width: 50%;
+}
+
+.join-text h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.get-started-btn {
+    padding: 10px 20px;
+    background-color: #396C03;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.join-image img {
+    width: 400px;
+    border-radius: 20px;
+}
+
+/* FAQ Section */
+.faq {
+    padding: 50px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.faq h3 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #396C03;
+}
+
+.faq-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.tab-btn {
+    padding: 10px 20px;
+    background-color: #396C03;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    
+}
+
+.tab-btn.active {
+    background-color: #396C03;
+    color: white;
+}
+
+.faq-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: auto;
+}
+
+.faq-item {
+    width: 45%;
+    text-align: left;
+}
+
+.faq-item h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    font-size: 16px;
+}
+
+/* App Promo Section */
+.app-promo {
+    background-color: #F9FBE7;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.app-promo h3 {
+    font-size: 28px;
+    color: #396C03;
+    margin-bottom: 20px;
+}
+
+.app-promo p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.app-links img {
+    width: 150px;
+    margin: 0 20px;
+}
+
+/* Footer */
+.footer {
+    background-color: #396C03;
+    color: white;
+    padding: 30px 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.footer h4 {
+    margin-bottom: 20px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer-social a img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
